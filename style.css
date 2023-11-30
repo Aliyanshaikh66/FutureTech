@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+
+}
+
+nav a:hover {
+    background-color: lightskyblue;
+}
+
+
+
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+
+.pages>ul {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+/* About Section CSS */
+.about-heading {
+    padding-top: 3rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.child_1 {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+
+span {
+    color: #92cef9;
+}
+
+.child_2 {
+    padding-left: 8rem;
+}
+
+.child_2 img {
+    height: 400px;
+    width: 400px;
+}
+
+/* Hot Product */
+.hot-product-image {
+    position: relative;
+    top: 8rem;
+    color: white;
+}
+
+.hot-product {
+    background-image: url("hot-image.jpg");
+    background-size: cover;
+    padding: 5rem;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 12rem;
+}
+
+.gr-descrip {
+    background-color: black;
+    opacity: 60%;
+
+
+}
+
+/* Upcoming Sensation */
+.update-heading {
+    padding-top: 16px;
+}
+
+/* Upcoming Event  */
+.imgs {
+    background-image: url("seminar.jpg");
+}
+
+.upcoming-detail {
+
+    background-size: cover;
+    padding: 3rem;
+    color: white;
+
+}
+
+/* card */
+
+.upcoming-cards {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.card {
+    border: 1px whitesmoke;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background-color: white;
+
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 16px;
+
+}
+
+/* Contact details wala part */
+.end-items {
+    padding: 32px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 80%;
+}
+
+.company-detail {
+    color: white;
+}
+
+.contact {
+    color: white;
+   
+}
+
+.links {
+    text-decoration: none;
+
+
+}
+
+li {
+    color: white;
+    list-style-type: none;
+
+}
+
+.forms {
+    color: white;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: lightseagreen;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 30px;
+
+
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+}
+.footer{
+    text-align: center;
+}
+
